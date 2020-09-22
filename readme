@@ -1,0 +1,18 @@
+about
+-----------------
+
+a basic flask-server demo (2 servers) that echo each others on a docker network
+
+structure
+----------------
+
+#. flask-1 server
+#. flask-2 server
+
+
+interactions
+~~~~~~~~~~~~~~~
+
+*. if either server is ping, it logs the ping it receives & also pings the other server
+*. the other server logs the ping from the other server (but doesn't re-ping to avoid infinite pings loop)
+*. if the ping includes an argument ``?foo=value``, then the value is passed to the other server

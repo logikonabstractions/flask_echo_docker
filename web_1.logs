@@ -1,0 +1,101 @@
+2020-09-22 14:38:26,274 - mylogger - INFO - ENV VARS: web_1 
+2020-09-22 14:38:26,275 - mylogger - INFO - Docker compose network name: DOCKER_ECHOES
+2020-09-22 14:38:26,275 - mylogger - INFO - PATH : /usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+2020-09-22 14:38:26,275 - mylogger - INFO - HOSTNAME : c349dd430f9a
+2020-09-22 14:38:26,275 - mylogger - INFO - FLASK_ENV : development
+2020-09-22 14:38:26,275 - mylogger - INFO - FLASK_RUN_PORT : 5000
+2020-09-22 14:38:26,275 - mylogger - INFO - FLASK_APP : main.py
+2020-09-22 14:38:26,275 - mylogger - INFO - FLASK_RUN_HOST : 0.0.0.0
+2020-09-22 14:38:26,275 - mylogger - INFO - FLASK_NAME : web_1
+2020-09-22 14:38:26,275 - mylogger - INFO - COMPOSE_PROJECT_NAME : DOCKER_ECHOES
+2020-09-22 14:38:26,276 - mylogger - INFO - LANG : C.UTF-8
+2020-09-22 14:38:26,276 - mylogger - INFO - GPG_KEY : E3FF2839C048B25C084DEBE9B26995E310250568
+2020-09-22 14:38:26,276 - mylogger - INFO - PYTHON_VERSION : 3.8.5
+2020-09-22 14:38:26,276 - mylogger - INFO - PYTHON_PIP_VERSION : 20.2.3
+2020-09-22 14:38:26,276 - mylogger - INFO - PYTHON_GET_PIP_URL : https://github.com/pypa/get-pip/raw/fa7dc83944936bf09a0e4cb5d5ec852c0d256599/get-pip.py
+2020-09-22 14:38:26,276 - mylogger - INFO - PYTHON_GET_PIP_SHA256 : 6e0bb0a2c2533361d7f297ed547237caf1b7507f197835974c0dd7eba998c53c
+2020-09-22 14:38:26,276 - mylogger - INFO - HOME : /root
+2020-09-22 14:38:26,276 - mylogger - INFO - FLASK_RUN_FROM_CLI : true
+2020-09-22 14:38:26,276 - mylogger - INFO - WERKZEUG_SERVER_FD : 3
+2020-09-22 14:38:26,558 - mylogger - INFO - ENV VARS: web_1 
+2020-09-22 14:38:26,559 - mylogger - INFO - Docker compose network name: DOCKER_ECHOES
+2020-09-22 14:38:26,559 - mylogger - INFO - PATH : /usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+2020-09-22 14:38:26,559 - mylogger - INFO - HOSTNAME : c349dd430f9a
+2020-09-22 14:38:26,559 - mylogger - INFO - FLASK_ENV : development
+2020-09-22 14:38:26,559 - mylogger - INFO - FLASK_RUN_PORT : 5000
+2020-09-22 14:38:26,559 - mylogger - INFO - FLASK_APP : main.py
+2020-09-22 14:38:26,559 - mylogger - INFO - FLASK_RUN_HOST : 0.0.0.0
+2020-09-22 14:38:26,559 - mylogger - INFO - FLASK_NAME : web_1
+2020-09-22 14:38:26,559 - mylogger - INFO - COMPOSE_PROJECT_NAME : DOCKER_ECHOES
+2020-09-22 14:38:26,560 - mylogger - INFO - LANG : C.UTF-8
+2020-09-22 14:38:26,560 - mylogger - INFO - GPG_KEY : E3FF2839C048B25C084DEBE9B26995E310250568
+2020-09-22 14:38:26,560 - mylogger - INFO - PYTHON_VERSION : 3.8.5
+2020-09-22 14:38:26,560 - mylogger - INFO - PYTHON_PIP_VERSION : 20.2.3
+2020-09-22 14:38:26,560 - mylogger - INFO - PYTHON_GET_PIP_URL : https://github.com/pypa/get-pip/raw/fa7dc83944936bf09a0e4cb5d5ec852c0d256599/get-pip.py
+2020-09-22 14:38:26,560 - mylogger - INFO - PYTHON_GET_PIP_SHA256 : 6e0bb0a2c2533361d7f297ed547237caf1b7507f197835974c0dd7eba998c53c
+2020-09-22 14:38:26,560 - mylogger - INFO - HOME : /root
+2020-09-22 14:38:26,560 - mylogger - INFO - FLASK_RUN_FROM_CLI : true
+2020-09-22 14:38:26,560 - mylogger - INFO - WERKZEUG_SERVER_FD : 3
+2020-09-22 14:38:26,561 - mylogger - INFO - WERKZEUG_RUN_MAIN : true
+2020-09-22 14:38:28,400 - mylogger - INFO - web_1 ping received with arg None
+2020-09-22 14:38:28,400 - mylogger - INFO - pinging other server.... 
+2020-09-22 14:38:31,716 - mylogger - INFO - web_1 got from twin server: web_2
+2020-09-22 14:38:56,034 - mylogger - INFO - web_1 got from twin server: web_2
+2020-09-22 14:39:00,185 - mylogger - INFO - web_1 got from twin server: web_2
+2020-09-22 14:39:00,362 - mylogger - INFO - web_1 got from twin server: web_2
+2020-09-22 14:39:00,546 - mylogger - INFO - web_1 got from twin server: web_2
+2020-09-22 14:39:00,742 - mylogger - INFO - web_1 got from twin server: web_2
+2020-09-22 14:39:00,892 - mylogger - INFO - web_1 got from twin server: web_2
+2020-09-22 14:39:01,061 - mylogger - INFO - web_1 got from twin server: web_2
+2020-09-22 14:39:46,118 - mylogger - INFO - ENV VARS: web_1 
+2020-09-22 14:39:46,118 - mylogger - INFO - Docker compose network name: DOCKER_ECHOES
+2020-09-22 14:39:46,118 - mylogger - INFO - PATH : /usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+2020-09-22 14:39:46,118 - mylogger - INFO - HOSTNAME : c349dd430f9a
+2020-09-22 14:39:46,118 - mylogger - INFO - FLASK_ENV : development
+2020-09-22 14:39:46,119 - mylogger - INFO - FLASK_RUN_PORT : 5000
+2020-09-22 14:39:46,119 - mylogger - INFO - FLASK_APP : main.py
+2020-09-22 14:39:46,119 - mylogger - INFO - FLASK_RUN_HOST : 0.0.0.0
+2020-09-22 14:39:46,119 - mylogger - INFO - FLASK_NAME : web_1
+2020-09-22 14:39:46,119 - mylogger - INFO - COMPOSE_PROJECT_NAME : DOCKER_ECHOES
+2020-09-22 14:39:46,119 - mylogger - INFO - LANG : C.UTF-8
+2020-09-22 14:39:46,120 - mylogger - INFO - GPG_KEY : E3FF2839C048B25C084DEBE9B26995E310250568
+2020-09-22 14:39:46,120 - mylogger - INFO - PYTHON_VERSION : 3.8.5
+2020-09-22 14:39:46,120 - mylogger - INFO - PYTHON_PIP_VERSION : 20.2.3
+2020-09-22 14:39:46,120 - mylogger - INFO - PYTHON_GET_PIP_URL : https://github.com/pypa/get-pip/raw/fa7dc83944936bf09a0e4cb5d5ec852c0d256599/get-pip.py
+2020-09-22 14:39:46,120 - mylogger - INFO - PYTHON_GET_PIP_SHA256 : 6e0bb0a2c2533361d7f297ed547237caf1b7507f197835974c0dd7eba998c53c
+2020-09-22 14:39:46,120 - mylogger - INFO - HOME : /root
+2020-09-22 14:39:46,121 - mylogger - INFO - FLASK_RUN_FROM_CLI : true
+2020-09-22 14:39:46,121 - mylogger - INFO - WERKZEUG_SERVER_FD : 3
+2020-09-22 14:39:46,121 - mylogger - INFO - WERKZEUG_RUN_MAIN : true
+2020-09-22 14:39:48,163 - mylogger - INFO - web_1 got from twin server: hello_world
+2020-09-22 14:39:48,659 - mylogger - INFO - web_1 got from twin server: hello_world
+2020-09-22 14:39:48,696 - mylogger - INFO - web_1 got from twin server: hello_world
+2020-09-22 14:39:48,754 - mylogger - INFO - web_1 got from twin server: hello_world
+2020-09-22 14:39:48,804 - mylogger - INFO - web_1 got from twin server: hello_world
+2020-09-22 14:39:48,852 - mylogger - INFO - web_1 got from twin server: hello_world
+2020-09-22 14:39:48,903 - mylogger - INFO - web_1 got from twin server: hello_world
+2020-09-22 14:39:48,952 - mylogger - INFO - web_1 got from twin server: hello_world
+2020-09-22 14:39:49,004 - mylogger - INFO - web_1 got from twin server: hello_world
+2020-09-22 14:39:49,141 - mylogger - INFO - web_1 got from twin server: hello_world
+2020-09-22 14:39:49,344 - mylogger - INFO - web_1 got from twin server: hello_world
+2020-09-22 14:39:49,546 - mylogger - INFO - web_1 got from twin server: hello_world
+2020-09-22 14:39:59,094 - mylogger - INFO - web_1 ping received with arg None
+2020-09-22 14:39:59,094 - mylogger - INFO - pinging other server.... 
+2020-09-22 14:39:59,493 - mylogger - INFO - web_1 ping received with arg None
+2020-09-22 14:39:59,493 - mylogger - INFO - pinging other server.... 
+2020-09-22 14:39:59,992 - mylogger - INFO - web_1 ping received with arg None
+2020-09-22 14:39:59,993 - mylogger - INFO - pinging other server.... 
+2020-09-22 14:40:00,045 - mylogger - INFO - web_1 ping received with arg None
+2020-09-22 14:40:00,045 - mylogger - INFO - pinging other server.... 
+2020-09-22 14:40:00,089 - mylogger - INFO - web_1 ping received with arg None
+2020-09-22 14:40:00,090 - mylogger - INFO - pinging other server.... 
+2020-09-22 14:40:00,138 - mylogger - INFO - web_1 ping received with arg None
+2020-09-22 14:40:00,138 - mylogger - INFO - pinging other server.... 
+2020-09-22 14:40:00,189 - mylogger - INFO - web_1 ping received with arg None
+2020-09-22 14:40:00,189 - mylogger - INFO - pinging other server.... 
+2020-09-22 14:40:00,239 - mylogger - INFO - web_1 ping received with arg None
+2020-09-22 14:40:00,239 - mylogger - INFO - pinging other server.... 
+2020-09-22 14:40:00,289 - mylogger - INFO - web_1 ping received with arg None
+2020-09-22 14:40:00,289 - mylogger - INFO - pinging other server.... 
+2020-09-22 14:40:00,340 - mylogger - INFO - web_1 ping received with arg None
+2020-09-22 14:40:00,340 - mylogger - INFO - pinging other server.... 

@@ -1,0 +1,36 @@
+# to build:
+# ``docker-compose build`` : this will build the images, but NOT start any container
+# ``docker-compose up``: starts the container AND build the image if needed (e.g. if there isn't already a built image corresponding to the dockerfiles content)
+
+version: '3'
+services:
+  web_1:
+    build:
+      dockerfile: dockerfile_flask
+      context: .
+    ports:
+      - "80:5000"       # flask by default runs on 5000 so keep it on container, and :80 on host allows to not specify port as 80 is default
+    volumes:
+      - .:/project      # maps the current directory, e.g. project root that is gitted, to /proj in the container so we can live-reload
+    environment:
+      FLASK_ENV: development
+      FLASK_RUN_PORT: 5000
+      FLASK_APP: main.py
+      FLASK_RUN_HOST: 0.0.0.0
+      FLASK_NAME: web_1
+      COMPOSE_PROJECT_NAME: DOCKER_ECHOES
+  web_2:
+    build:
+      dockerfile: dockerfile_flask
+      context: .
+    ports:
+      - "8001:5000"       # flask by default runs on 5000 so keep it on container, and :8001 on host
+    volumes:
+      - .:/project      # maps the current directory, e.g. project root that is gitted, to /proj in the container so we can live-reload
+    environment:
+      FLASK_ENV: development
+      FLASK_RUN_PORT: 5000
+      FLASK_APP: main.py
+      FLASK_RUN_HOST: 0.0.0.0
+      FLASK_NAME: web_2
+      COMPOSE_PROJECT_NAME: DOCKER_ECHOES
