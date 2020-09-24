@@ -108,3 +108,85 @@
 2020-09-22 14:40:00,244 - mylogger - INFO - web_2 got from twin server: web_1
 2020-09-22 14:40:00,294 - mylogger - INFO - web_2 got from twin server: web_1
 2020-09-22 14:40:00,344 - mylogger - INFO - web_2 got from twin server: web_1
+2020-09-24 16:43:47,086 - mylogger - INFO - ENV VARS: web_2 
+2020-09-24 16:43:47,087 - mylogger - INFO - Docker compose network name: DOCKER_ECHOES
+2020-09-24 16:43:47,087 - mylogger - INFO - PATH : /usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+2020-09-24 16:43:47,087 - mylogger - INFO - HOSTNAME : 3dc39953a742
+2020-09-24 16:43:47,087 - mylogger - INFO - FLASK_ENV : development
+2020-09-24 16:43:47,087 - mylogger - INFO - FLASK_RUN_PORT : 5000
+2020-09-24 16:43:47,087 - mylogger - INFO - FLASK_APP : main.py
+2020-09-24 16:43:47,087 - mylogger - INFO - FLASK_RUN_HOST : 0.0.0.0
+2020-09-24 16:43:47,087 - mylogger - INFO - FLASK_NAME : web_2
+2020-09-24 16:43:47,088 - mylogger - INFO - COMPOSE_PROJECT_NAME : DOCKER_ECHOES
+2020-09-24 16:43:47,088 - mylogger - INFO - LANG : C.UTF-8
+2020-09-24 16:43:47,088 - mylogger - INFO - GPG_KEY : E3FF2839C048B25C084DEBE9B26995E310250568
+2020-09-24 16:43:47,088 - mylogger - INFO - PYTHON_VERSION : 3.8.5
+2020-09-24 16:43:47,088 - mylogger - INFO - PYTHON_PIP_VERSION : 20.2.3
+2020-09-24 16:43:47,088 - mylogger - INFO - PYTHON_GET_PIP_URL : https://github.com/pypa/get-pip/raw/fa7dc83944936bf09a0e4cb5d5ec852c0d256599/get-pip.py
+2020-09-24 16:43:47,088 - mylogger - INFO - PYTHON_GET_PIP_SHA256 : 6e0bb0a2c2533361d7f297ed547237caf1b7507f197835974c0dd7eba998c53c
+2020-09-24 16:43:47,088 - mylogger - INFO - HOME : /root
+2020-09-24 16:43:47,088 - mylogger - INFO - FLASK_RUN_FROM_CLI : true
+2020-09-24 16:43:47,089 - mylogger - INFO - WERKZEUG_SERVER_FD : 3
+2020-09-24 16:43:47,320 - mylogger - INFO - ENV VARS: web_2 
+2020-09-24 16:43:47,320 - mylogger - INFO - Docker compose network name: DOCKER_ECHOES
+2020-09-24 16:43:47,320 - mylogger - INFO - PATH : /usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+2020-09-24 16:43:47,320 - mylogger - INFO - HOSTNAME : 3dc39953a742
+2020-09-24 16:43:47,320 - mylogger - INFO - FLASK_ENV : development
+2020-09-24 16:43:47,320 - mylogger - INFO - FLASK_RUN_PORT : 5000
+2020-09-24 16:43:47,320 - mylogger - INFO - FLASK_APP : main.py
+2020-09-24 16:43:47,320 - mylogger - INFO - FLASK_RUN_HOST : 0.0.0.0
+2020-09-24 16:43:47,321 - mylogger - INFO - FLASK_NAME : web_2
+2020-09-24 16:43:47,321 - mylogger - INFO - COMPOSE_PROJECT_NAME : DOCKER_ECHOES
+2020-09-24 16:43:47,321 - mylogger - INFO - LANG : C.UTF-8
+2020-09-24 16:43:47,321 - mylogger - INFO - GPG_KEY : E3FF2839C048B25C084DEBE9B26995E310250568
+2020-09-24 16:43:47,321 - mylogger - INFO - PYTHON_VERSION : 3.8.5
+2020-09-24 16:43:47,321 - mylogger - INFO - PYTHON_PIP_VERSION : 20.2.3
+2020-09-24 16:43:47,321 - mylogger - INFO - PYTHON_GET_PIP_URL : https://github.com/pypa/get-pip/raw/fa7dc83944936bf09a0e4cb5d5ec852c0d256599/get-pip.py
+2020-09-24 16:43:47,321 - mylogger - INFO - PYTHON_GET_PIP_SHA256 : 6e0bb0a2c2533361d7f297ed547237caf1b7507f197835974c0dd7eba998c53c
+2020-09-24 16:43:47,321 - mylogger - INFO - HOME : /root
+2020-09-24 16:43:47,321 - mylogger - INFO - FLASK_RUN_FROM_CLI : true
+2020-09-24 16:43:47,322 - mylogger - INFO - WERKZEUG_SERVER_FD : 3
+2020-09-24 16:43:47,322 - mylogger - INFO - WERKZEUG_RUN_MAIN : true
+2020-09-24 16:44:16,992 - mylogger - INFO - ENV VARS: web_2 
+2020-09-24 16:44:16,992 - mylogger - INFO - Docker compose network name: DOCKER_ECHOES
+2020-09-24 16:44:16,992 - mylogger - INFO - PATH : /usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+2020-09-24 16:44:16,992 - mylogger - INFO - HOSTNAME : 4e3e80a59038
+2020-09-24 16:44:16,992 - mylogger - INFO - FLASK_ENV : development
+2020-09-24 16:44:16,992 - mylogger - INFO - FLASK_RUN_PORT : 5000
+2020-09-24 16:44:16,992 - mylogger - INFO - FLASK_APP : main.py
+2020-09-24 16:44:16,992 - mylogger - INFO - FLASK_RUN_HOST : 0.0.0.0
+2020-09-24 16:44:16,993 - mylogger - INFO - FLASK_NAME : web_2
+2020-09-24 16:44:16,993 - mylogger - INFO - COMPOSE_PROJECT_NAME : DOCKER_ECHOES
+2020-09-24 16:44:16,993 - mylogger - INFO - LANG : C.UTF-8
+2020-09-24 16:44:16,993 - mylogger - INFO - GPG_KEY : E3FF2839C048B25C084DEBE9B26995E310250568
+2020-09-24 16:44:16,993 - mylogger - INFO - PYTHON_VERSION : 3.8.5
+2020-09-24 16:44:16,993 - mylogger - INFO - PYTHON_PIP_VERSION : 20.2.3
+2020-09-24 16:44:16,993 - mylogger - INFO - PYTHON_GET_PIP_URL : https://github.com/pypa/get-pip/raw/fa7dc83944936bf09a0e4cb5d5ec852c0d256599/get-pip.py
+2020-09-24 16:44:16,993 - mylogger - INFO - PYTHON_GET_PIP_SHA256 : 6e0bb0a2c2533361d7f297ed547237caf1b7507f197835974c0dd7eba998c53c
+2020-09-24 16:44:16,993 - mylogger - INFO - HOME : /root
+2020-09-24 16:44:16,993 - mylogger - INFO - FLASK_RUN_FROM_CLI : true
+2020-09-24 16:44:16,994 - mylogger - INFO - WERKZEUG_SERVER_FD : 3
+2020-09-24 16:44:17,268 - mylogger - INFO - ENV VARS: web_2 
+2020-09-24 16:44:17,268 - mylogger - INFO - Docker compose network name: DOCKER_ECHOES
+2020-09-24 16:44:17,268 - mylogger - INFO - PATH : /usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+2020-09-24 16:44:17,268 - mylogger - INFO - HOSTNAME : 4e3e80a59038
+2020-09-24 16:44:17,268 - mylogger - INFO - FLASK_ENV : development
+2020-09-24 16:44:17,269 - mylogger - INFO - FLASK_RUN_PORT : 5000
+2020-09-24 16:44:17,269 - mylogger - INFO - FLASK_APP : main.py
+2020-09-24 16:44:17,269 - mylogger - INFO - FLASK_RUN_HOST : 0.0.0.0
+2020-09-24 16:44:17,269 - mylogger - INFO - FLASK_NAME : web_2
+2020-09-24 16:44:17,269 - mylogger - INFO - COMPOSE_PROJECT_NAME : DOCKER_ECHOES
+2020-09-24 16:44:17,269 - mylogger - INFO - LANG : C.UTF-8
+2020-09-24 16:44:17,269 - mylogger - INFO - GPG_KEY : E3FF2839C048B25C084DEBE9B26995E310250568
+2020-09-24 16:44:17,269 - mylogger - INFO - PYTHON_VERSION : 3.8.5
+2020-09-24 16:44:17,269 - mylogger - INFO - PYTHON_PIP_VERSION : 20.2.3
+2020-09-24 16:44:17,270 - mylogger - INFO - PYTHON_GET_PIP_URL : https://github.com/pypa/get-pip/raw/fa7dc83944936bf09a0e4cb5d5ec852c0d256599/get-pip.py
+2020-09-24 16:44:17,270 - mylogger - INFO - PYTHON_GET_PIP_SHA256 : 6e0bb0a2c2533361d7f297ed547237caf1b7507f197835974c0dd7eba998c53c
+2020-09-24 16:44:17,270 - mylogger - INFO - HOME : /root
+2020-09-24 16:44:17,270 - mylogger - INFO - FLASK_RUN_FROM_CLI : true
+2020-09-24 16:44:17,270 - mylogger - INFO - WERKZEUG_SERVER_FD : 3
+2020-09-24 16:44:17,270 - mylogger - INFO - WERKZEUG_RUN_MAIN : true
+2020-09-24 16:44:45,567 - mylogger - INFO - web_2 got from twin server: web_1
+2020-09-24 16:45:12,606 - mylogger - INFO - web_2 got from twin server: haha
+2020-09-24 16:45:15,029 - mylogger - INFO - web_2 got from twin server: haha
+2020-09-24 16:45:15,746 - mylogger - INFO - web_2 got from twin server: haha

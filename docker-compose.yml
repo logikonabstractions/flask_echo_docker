@@ -2,7 +2,7 @@
 # ``docker-compose build`` : this will build the images, but NOT start any container
 # ``docker-compose up``: starts the container AND build the image if needed (e.g. if there isn't already a built image corresponding to the dockerfiles content)
 
-version: '3'
+version: '3.8'
 services:
   web_1:
     build:
