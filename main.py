@@ -36,7 +36,7 @@ def home():
     # requests.get("0.0.0.0:8001/from_server?foo=80")
 
 
-    return "request successful!"
+    return "Request soooooooo successful!"
 
 @app.route("/fromserver")
 def from_server():

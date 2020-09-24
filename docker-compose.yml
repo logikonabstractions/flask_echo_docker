@@ -3,34 +3,35 @@
 # ``docker-compose up``: starts the container AND build the image if needed (e.g. if there isn't already a built image corresponding to the dockerfiles content)
 
 version: '3.8'
+
+x-common-variables: &shared_envvars
+  FLASK_RUN_PORT: 5000
+  FLASK_ENV: development
+  FLASK_APP: main.py
+  FLASK_RUN_HOST: 0.0.0.0
+  COMPOSE_PROJECT_NAME: DOCKER_ECHOES
+
+x-volumes: &com_volumes
+  - .:/project          # maps the current directory, e.g. project root that is gitted, to /proj in the container so we can live-reload
+
 services:
   web_1:
     build:
       dockerfile: dockerfile_flask
       context: .
     ports:
-      - "80:5000"       # flask by default runs on 5000 so keep it on container, and :80 on host allows to not specify port as 80 is default
-    volumes:
-      - .:/project      # maps the current directory, e.g. project root that is gitted, to /proj in the container so we can live-reload
+      - "${WEB_1_PORT}:${FLASK_RUN_PORT}"       # flask runs on 5000 (default). docker-compose --env-file dockercompose.env up loads whatever env vars specified & allows them to be used this way here.
+    volumes: *com_volumes
     environment:
-      FLASK_ENV: development
-      FLASK_RUN_PORT: 5000
-      FLASK_APP: main.py
-      FLASK_RUN_HOST: 0.0.0.0
+      <<: *shared_envvars   # DRY: defined common stuff in a shared section above, & use YAML merge language syntaxe to include that k-v mapping here. pretty neat.
       FLASK_NAME: web_1
-      COMPOSE_PROJECT_NAME: DOCKER_ECHOES
   web_2:
     build:
       dockerfile: dockerfile_flask
       context: .
     ports:
-      - "8001:5000"       # flask by default runs on 5000 so keep it on container, and :8001 on host
-    volumes:
-      - .:/project      # maps the current directory, e.g. project root that is gitted, to /proj in the container so we can live-reload
+      - "${WEB_2_PORT}:${FLASK_RUN_PORT}"       # flask by default runs on 5000 so keep it on container, and :8001 on host
+    volumes: *com_volumes
     environment:
-      FLASK_ENV: development
-      FLASK_RUN_PORT: 5000
-      FLASK_APP: main.py
-      FLASK_RUN_HOST: 0.0.0.0
+      <<: *shared_envvars
       FLASK_NAME: web_2
-      COMPOSE_PROJECT_NAME: DOCKER_ECHOES
