@@ -23,7 +23,7 @@ def get_root_logger(loggername, filename=None):
     debug = os.environ.get('ENV', 'development') == 'development'
     logger.setLevel(logging.DEBUG if debug else logging.INFO)
 
-    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    formatter = logging.Formatter('%(asctime)s - %(name)s:%(levelname)s - %(message)s')
 
     console_handler = logging.StreamHandler()
     console_handler.setFormatter(formatter)
