@@ -1,5 +1,6 @@
 import os
 import logging
+from utils import LOG_FOLDER
 
 def get_root_logger(loggername, filename=None):
     """
@@ -30,7 +31,8 @@ def get_root_logger(loggername, filename=None):
     logger.addHandler(console_handler)
 
     if filename:
-        file_handler = logging.FileHandler(filename)
+        path = os.path.join(LOG_FOLDER, filename)
+        file_handler = logging.FileHandler(path)
         file_handler.setFormatter(formatter)
         logger.addHandler(file_handler)
 
