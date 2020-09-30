@@ -7,9 +7,11 @@ import os
 
 app     = Flask(__name__)
 NAME = os.environ["FLASK_NAME"]
+# PORT = os.environ["PORT"]
 PROJNAME = os.environ['COMPOSE_PROJECT_NAME']
 LOG = get_root_logger("mylogger", filename=f'{NAME}.logs')
 LOG.info(f'ENV VARS: {NAME} ')
+# LOG.info(f'ENV VARS: {PORT} ')
 LOG.info(f'Docker compose network name: {PROJNAME}')
 
 envars = os.environ

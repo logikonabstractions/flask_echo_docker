@@ -31,8 +31,7 @@ def get_root_logger(loggername, filename=None):
     logger.addHandler(console_handler)
 
     if filename:
-        path = os.path.join(LOG_FOLDER, filename)
-        file_handler = logging.FileHandler(path)
+        file_handler = logging.FileHandler(os.path.join(LOG_FOLDER, filename))
         file_handler.setFormatter(formatter)
         logger.addHandler(file_handler)
 
