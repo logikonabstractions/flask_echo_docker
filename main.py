@@ -14,6 +14,7 @@ LOG.info(f'ENV VARS: {NAME} ')
 # LOG.info(f'ENV VARS: {PORT} ')
 LOG.info(f'Docker compose network name: {PROJNAME}')
 
+
 envars = os.environ
 for k,v in envars.items():
     LOG.info(f"{k} : {v}")

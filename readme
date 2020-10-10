@@ -23,3 +23,12 @@ networks & communication
 * the general syntax for communication between 2 containers is:
     * ``http://my_service_name:internal_port``, where ``my_service_name`` is the section title for that container in docker-compose
     * you can then use something like ``requests`` in python to make those get/post calls
+
+the support for .env files used by docker-compose with swarm
+-----------------------------------------------------------------
+
+* the issue is that .env files aren't supported directly with swarm. So if you try to straight up run in swarm a docker-compos using .env for its build, it won't work. you need to do something else:
+* load the vars in the terminal context before docker stack deploy:
+    * env $(cat .env | grep ^[A-Z] | xargs) docker stack deploy --compose-file docker-compose.yml [STACK_NAME]
+
+* you must either be in swarm mode (docker swarm init) or not (`docker swarm leave` or `docker system info | grep Swarm`)

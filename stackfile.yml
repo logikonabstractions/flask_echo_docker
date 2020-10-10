@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  myapp:
+#    image: python:3.8-alpine
+    build:
+      dockerfile: Dockerfile
+      context: .
+    ports:
+    - "80:5000"
+
