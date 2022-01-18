@@ -16,7 +16,7 @@ x-volumes: &com_volumes
 services:
   web_1:
     build:
-      dockerfile: dockerfile_flask
+      dockerfile: Dockerfile
       context: .
     ports:
       - "${WEB_1_PORT}:${FLASK_RUN_PORT}"       # flask runs on 5000 (default). docker-compose --env-file dockercompose.env up loads whatever env vars specified & allows them to be used this way here.
