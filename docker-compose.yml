@@ -18,15 +18,17 @@ services:
     build:
       dockerfile: Dockerfile
       context: ./python_workbook
-    # volumes: *com_volumes
+    volumes: 
+      - ./python_workbook:/project
     ports:
       - 5000:5000
     environment:
-      <<: *shared_envvars   # DRY: defined common stuff in a shared section above, & use YAML merge language syntaxe to include that k-v mapping here. pretty neat.
       FLASK_NAME: PYTHON_WORKBOOK
   react_client:
     build:
       dockerfile: Dockerfile
       context: ./react_client
+    volumes: 
+      - ./react_client:/project
     depends_on: 
       - python_workbook
