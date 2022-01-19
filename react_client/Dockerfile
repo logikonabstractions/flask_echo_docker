@@ -1,6 +1,6 @@
 # specify base image. going for python3-8 alpine, which is a minimalist linux distro
 # advices are somewhat divided on it but let's just try it out
-FROM python:3.8-alpine
+FROM python:3.10-buster
 WORKDIR /project
 
 # ENV VARS are set in the docker-compose.yml
@@ -13,5 +13,7 @@ RUN echo "copying project files... "
 COPY . /project
 
 RUN echo "dockerfile completed. Running entry-point command "
-CMD ["flask", "run"]
+CMD ["python", "main.py"]
 
+# CMD ["ls"]
+# 

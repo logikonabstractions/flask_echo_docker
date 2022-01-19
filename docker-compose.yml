@@ -14,23 +14,19 @@ x-volumes: &com_volumes
   - .:/project          # maps the current directory, e.g. project root that is gitted, to /proj in the container so we can live-reload
 
 services:
-  web_1:
+  python_workbook:
     build:
       dockerfile: Dockerfile
-      context: .
+      context: ./python_workbook
+    # volumes: *com_volumes
     ports:
-      - "${WEB_1_PORT}:${FLASK_RUN_PORT}"       # flask runs on 5000 (default). docker-compose --env-file dockercompose.env up loads whatever env vars specified & allows them to be used this way here.
-    volumes: *com_volumes
+      - 5000:5000
     environment:
       <<: *shared_envvars   # DRY: defined common stuff in a shared section above, & use YAML merge language syntaxe to include that k-v mapping here. pretty neat.
-      FLASK_NAME: web_1
-  web_2:
+      FLASK_NAME: PYTHON_WORKBOOK
+  react_client:
     build:
-      dockerfile: dockerfile_flask
-      context: .
-    ports:
-      - "${WEB_2_PORT}:${FLASK_RUN_PORT}"       # flask by default runs on 5000 so keep it on container, and :8001 on host
-    volumes: *com_volumes
-    environment:
-      <<: *shared_envvars
-      FLASK_NAME: web_2
+      dockerfile: Dockerfile
+      context: ./react_client
+    depends_on: 
+      - python_workbook

@@ -297,3 +297,63 @@
 2022-01-18 21:26:11,515 - mylogger:INFO - web_2 ping received with arg 99
 2022-01-18 21:26:11,515 - mylogger:INFO - pinging other server.... 
 2022-01-18 21:26:19,051 - mylogger:INFO - web_2 got from twin server: 42
+2022-01-18 21:58:33,470 - mylogger:INFO - ENV VARS: web_2 
+2022-01-18 21:58:33,471 - mylogger:INFO - Docker compose network name: DOCKER_ECHOES
+2022-01-18 21:58:33,471 - mylogger:INFO - PATH : /usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+2022-01-18 21:58:33,471 - mylogger:INFO - HOSTNAME : 9478231d386c
+2022-01-18 21:58:33,471 - mylogger:INFO - FLASK_NAME : web_2
+2022-01-18 21:58:33,471 - mylogger:INFO - FLASK_ENV : development
+2022-01-18 21:58:33,472 - mylogger:INFO - FLASK_APP : main.py
+2022-01-18 21:58:33,472 - mylogger:INFO - FLASK_RUN_HOST : 0.0.0.0
+2022-01-18 21:58:33,472 - mylogger:INFO - COMPOSE_PROJECT_NAME : DOCKER_ECHOES
+2022-01-18 21:58:33,472 - mylogger:INFO - LANG : C.UTF-8
+2022-01-18 21:58:33,472 - mylogger:INFO - GPG_KEY : E3FF2839C048B25C084DEBE9B26995E310250568
+2022-01-18 21:58:33,472 - mylogger:INFO - PYTHON_VERSION : 3.8.12
+2022-01-18 21:58:33,473 - mylogger:INFO - PYTHON_PIP_VERSION : 21.2.4
+2022-01-18 21:58:33,473 - mylogger:INFO - PYTHON_SETUPTOOLS_VERSION : 57.5.0
+2022-01-18 21:58:33,473 - mylogger:INFO - PYTHON_GET_PIP_URL : https://github.com/pypa/get-pip/raw/3cb8888cc2869620f57d5d2da64da38f516078c7/public/get-pip.py
+2022-01-18 21:58:33,473 - mylogger:INFO - PYTHON_GET_PIP_SHA256 : c518250e91a70d7b20cceb15272209a4ded2a0c263ae5776f129e0d9b5674309
+2022-01-18 21:58:33,473 - mylogger:INFO - HOME : /root
+2022-01-18 21:58:33,473 - mylogger:INFO - FLASK_RUN_FROM_CLI : true
+2022-01-18 21:58:33,474 - mylogger:INFO - WERKZEUG_SERVER_FD : 4
+2022-01-18 21:58:33,474 - mylogger:INFO - WERKZEUG_RUN_MAIN : true
+2022-01-18 22:02:14,306 - mylogger:INFO - ENV VARS: web_2 
+2022-01-18 22:02:14,307 - mylogger:INFO - Docker compose network name: DOCKER_ECHOES
+2022-01-18 22:02:14,307 - mylogger:INFO - PATH : /usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+2022-01-18 22:02:14,307 - mylogger:INFO - HOSTNAME : 9478231d386c
+2022-01-18 22:02:14,307 - mylogger:INFO - FLASK_NAME : web_2
+2022-01-18 22:02:14,307 - mylogger:INFO - FLASK_ENV : development
+2022-01-18 22:02:14,307 - mylogger:INFO - FLASK_APP : main.py
+2022-01-18 22:02:14,307 - mylogger:INFO - FLASK_RUN_HOST : 0.0.0.0
+2022-01-18 22:02:14,307 - mylogger:INFO - COMPOSE_PROJECT_NAME : DOCKER_ECHOES
+2022-01-18 22:02:14,308 - mylogger:INFO - LANG : C.UTF-8
+2022-01-18 22:02:14,308 - mylogger:INFO - GPG_KEY : E3FF2839C048B25C084DEBE9B26995E310250568
+2022-01-18 22:02:14,308 - mylogger:INFO - PYTHON_VERSION : 3.8.12
+2022-01-18 22:02:14,308 - mylogger:INFO - PYTHON_PIP_VERSION : 21.2.4
+2022-01-18 22:02:14,308 - mylogger:INFO - PYTHON_SETUPTOOLS_VERSION : 57.5.0
+2022-01-18 22:02:14,308 - mylogger:INFO - PYTHON_GET_PIP_URL : https://github.com/pypa/get-pip/raw/3cb8888cc2869620f57d5d2da64da38f516078c7/public/get-pip.py
+2022-01-18 22:02:14,308 - mylogger:INFO - PYTHON_GET_PIP_SHA256 : c518250e91a70d7b20cceb15272209a4ded2a0c263ae5776f129e0d9b5674309
+2022-01-18 22:02:14,309 - mylogger:INFO - HOME : /root
+2022-01-18 22:02:14,309 - mylogger:INFO - FLASK_RUN_FROM_CLI : true
+2022-01-18 22:02:14,743 - mylogger:INFO - ENV VARS: web_2 
+2022-01-18 22:02:14,744 - mylogger:INFO - Docker compose network name: DOCKER_ECHOES
+2022-01-18 22:02:14,744 - mylogger:INFO - PATH : /usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+2022-01-18 22:02:14,744 - mylogger:INFO - HOSTNAME : 9478231d386c
+2022-01-18 22:02:14,744 - mylogger:INFO - FLASK_NAME : web_2
+2022-01-18 22:02:14,745 - mylogger:INFO - FLASK_ENV : development
+2022-01-18 22:02:14,745 - mylogger:INFO - FLASK_APP : main.py
+2022-01-18 22:02:14,745 - mylogger:INFO - FLASK_RUN_HOST : 0.0.0.0
+2022-01-18 22:02:14,745 - mylogger:INFO - COMPOSE_PROJECT_NAME : DOCKER_ECHOES
+2022-01-18 22:02:14,745 - mylogger:INFO - LANG : C.UTF-8
+2022-01-18 22:02:14,746 - mylogger:INFO - GPG_KEY : E3FF2839C048B25C084DEBE9B26995E310250568
+2022-01-18 22:02:14,746 - mylogger:INFO - PYTHON_VERSION : 3.8.12
+2022-01-18 22:02:14,746 - mylogger:INFO - PYTHON_PIP_VERSION : 21.2.4
+2022-01-18 22:02:14,746 - mylogger:INFO - PYTHON_SETUPTOOLS_VERSION : 57.5.0
+2022-01-18 22:02:14,746 - mylogger:INFO - PYTHON_GET_PIP_URL : https://github.com/pypa/get-pip/raw/3cb8888cc2869620f57d5d2da64da38f516078c7/public/get-pip.py
+2022-01-18 22:02:14,747 - mylogger:INFO - PYTHON_GET_PIP_SHA256 : c518250e91a70d7b20cceb15272209a4ded2a0c263ae5776f129e0d9b5674309
+2022-01-18 22:02:14,747 - mylogger:INFO - HOME : /root
+2022-01-18 22:02:14,747 - mylogger:INFO - FLASK_RUN_FROM_CLI : true
+2022-01-18 22:02:14,747 - mylogger:INFO - WERKZEUG_SERVER_FD : 4
+2022-01-18 22:02:14,747 - mylogger:INFO - WERKZEUG_RUN_MAIN : true
+2022-01-18 22:02:19,484 - mylogger:INFO - web_2 ping received with arg 42
+2022-01-18 22:02:19,484 - mylogger:INFO - pinging other server.... 
